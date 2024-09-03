@@ -12,4 +12,9 @@ public class test {
         return "esto lo estas regrensando del endpoint /print";
     }
 
+    @GetMapping("/printStatus")
+    public String printStatusOnlineOffline(){
+        return "Online";
+    }
+
 }
