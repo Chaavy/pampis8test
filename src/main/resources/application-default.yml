@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: test-api
+  jpa:
+    hibernate:
+      ddl-auto: none
+      default_schema: dbo
+      dialect: org.hibernate.dialect.SQLServerDialect
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    generate-ddl: false
+    show-sql: true
+  datasource:
+    jdbc-url: jdbc:sqlserver://localhost:1433;databaseName=JPA_TEST;encrypt=false
+    username: sa
+    password: Conectil01.
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jackson:
+    property-naming-strategy: com.fasterxml.jackson.databind.PropertyNamingStrategy.SnakeCaseStrategy
