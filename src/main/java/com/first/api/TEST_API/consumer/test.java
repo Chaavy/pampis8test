@@ -65,5 +65,11 @@ public class test {
         return "Se creo nueva persona " + createPersona.getNombre();
     }
 
+    //TODO: Agregar nuevos endpoints y logica para regresar el response esperado
+
+    //TODO: 1. actualizar persona por Id, regresar la persona actualizada, utilizar METODO PUT
+    //TODO: 2. Regresar el numero total de personas registradas, utilizar metodo GET
+    //TODO: 3. Regresar el numero total de personas con la misma edad
+
 
 }
